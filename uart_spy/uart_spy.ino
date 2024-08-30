@@ -6,8 +6,10 @@
 #include <Wire.h>
 
 #define UART_SPEED 9600
+#define rxPin 10
+#define txPin 11
 
-SoftwareSerial uart_spy(10, 11);
+SoftwareSerial uart_spy(rxPin, txPin);
 
 void setup() {
   /* Setup screen terminal */
