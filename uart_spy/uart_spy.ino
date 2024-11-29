@@ -29,9 +29,8 @@ void loop() {
   if (uart_spy.available()) Serial.write(uart_spy.read());
 
   /* UART Write example  
-  int bytessent = uart_spy.write("hello\n\r");
-  Serial.println(bytessent);
-  delay(500);
+  int bytessent = uart_spy.write("hello\n\r");  Serial.println(bytessent);
+  delay(500);                                                   
   */
 
 }
